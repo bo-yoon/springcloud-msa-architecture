@@ -35,8 +35,11 @@ dependencyManagement {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	//actuator
+	implementation 'org.springframework.boot:spring-boot-starter-actuator:2.1.8.RELEASE'
+
 
 	//config
 	implementation 'org.springframework.cloud:spring-cloud-config-server'
