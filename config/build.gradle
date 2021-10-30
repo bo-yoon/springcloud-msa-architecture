@@ -1,5 +1,11 @@
+buildscript {
+	dependencies {
+		classpath "io.spring.gradle:dependency-management-plugin:1.0.10.RELEASE"
+	}
+}
+
 plugins {
-	id 'org.springframework.boot' version '2.5.6'
+	id 'org.springframework.boot' version '2.3.4.RELEASE'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
@@ -8,16 +14,38 @@ group = 'com.springcloud'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
+
+apply plugin: 'io.spring.dependency-management'
+
 repositories {
 	mavenCentral()
 }
+
+
+ext {
+	set('springCloudVersion', "Hoxton.SR8")
+}
+apply plugin: "io.spring.dependency-management"
+dependencyManagement {
+	imports {
+		mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+	}
+}
+
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	//config
+	implementation 'org.springframework.cloud:spring-cloud-config-server'
+
+
+
 }
 
 test {
 	useJUnitPlatform()
 }
+
