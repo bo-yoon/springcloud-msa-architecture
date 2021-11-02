@@ -1,0 +1,9 @@
+server:
+  port: 9092
+
+spring:
+  application:
+    name: api-product
+  cloud:
+    config:
+      uri: http://localhost:8888
