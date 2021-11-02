@@ -10,5 +10,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/bo-yoon/springcloud-msa-architecture.git
+          uri: https://github.com/bo-yoon/springcloud-config-profiles.git
+          basedir: target/config
+          searchPaths: dev, stg, prd
 
+management:
+  endpoints:
+    enabled-by-default: false
+  endpoint:
+    info:
+      enabled: true
