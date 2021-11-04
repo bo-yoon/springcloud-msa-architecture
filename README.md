@@ -5,13 +5,12 @@
 <br>
 <br>
 
-## feat01-config
+## 🤔 feat01-config
 : 스프링 클라우드 컨피그 적용
 
 https://velog.io/@borab/Spring-Cloud-Config
 
 <br>
-<br>
 
-## feat02-multi-module
+## 🤔 feat02-multi-module
 : 스프링 부트 멀티모듈 프로젝트로 변환
