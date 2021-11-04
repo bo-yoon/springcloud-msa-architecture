@@ -16,3 +16,10 @@ https://velog.io/@borab/Spring-Cloud-Config
 : 스프링 부트 멀티모듈 프로젝트로 변환
 
 https://velog.io/@borab/Springboot-Project-multi-module
+
+<br>
+
+## 🤔 feat03-eureka
+: 스프링클라우드 넷플릭스 OSS 유레카 적용
+
+https://velog.io/@borab/Spring-Cloud-Eureka

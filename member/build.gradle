@@ -4,5 +4,8 @@ dependencies {
 
     // config
     implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '3.0.5'
+
+    // eureka
+    implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-eureka-client', version: '3.0.4'
 }
 
