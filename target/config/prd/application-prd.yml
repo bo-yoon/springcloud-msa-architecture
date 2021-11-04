@@ -1,0 +1,4 @@
+config:
+  name: prd
+info:
+  description: Spring Cloud Prd

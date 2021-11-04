@@ -1,0 +1,4 @@
+config:
+  name: stg
+info:
+  description: Spring Cloud Stg

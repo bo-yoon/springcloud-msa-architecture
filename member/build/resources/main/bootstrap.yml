@@ -1,0 +1,9 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: api-member
+  cloud:
+    config:
+      uri: http://localhost:8888
