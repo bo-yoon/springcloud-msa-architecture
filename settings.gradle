@@ -1,5 +1,4 @@
 rootProject.name = 'msa'
-include 'config'
 include 'order'
 include 'member'
 include 'product'
