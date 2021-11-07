@@ -1,6 +1,7 @@
 server:
   port: 9090
-
+  servlet:
+    context-path: /member
 spring:
   application:
     name: api-member

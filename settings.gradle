@@ -5,4 +5,5 @@ include 'product'
 include 'common'
 include 'config'
 include 'eureka-server'
+include 'api-gateway'
 
