@@ -15,6 +15,16 @@ https://github.com/bo-yoon/springcloud-msa-architecture/blob/master/docs/msa-pro
 <br>
 <br>
 
+
+## 📖 docs02-requirement
+: 요구 사항 정의
+
+https://github.com/bo-yoon/springcloud-msa-architecture/blob/master/docs/msa-project-requirement.md
+
+<br>
+<br>
+
+
 ## 🤔 feat01-config
 : 스프링 클라우드 컨피그 적용
 
