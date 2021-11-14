@@ -26,3 +26,13 @@ https://velog.io/@borab/Springboot-Project-multi-module
 : 스프링클라우드 넷플릭스 OSS 유레카 적용
 
 https://velog.io/@borab/Spring-Cloud-Eureka
+
+
+<br>
+
+## 🤔 feat04-spring-cloud-gateway
+: 스프링 클라우드 게이트웨이 적용
+https://velog.io/@borab/Spring-Cloud-Gateway-s
+
+<br>
+
