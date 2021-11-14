@@ -8,7 +8,7 @@
 ## 📖 docs01-ui-design
 : ui 디자인 프로토타입
 
-![](https://github.com/bo-yoon/springcloud-msa-architecture/blob/master/docs/msa-project-ui-design.md)
+https://github.com/bo-yoon/springcloud-msa-architecture/blob/master/docs/msa-project-ui-design.md
 
 
 
