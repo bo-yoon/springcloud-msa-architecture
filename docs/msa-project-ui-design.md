@@ -26,7 +26,7 @@
 
 ## 로그인 화면
 
-![image-20211114150930880](msa-project-ui-design.assets/image-20211114150930880.png)
+![image-20211115223916909](msa-project-ui-design.assets/image-20211115223916909.png)
 
 
 
