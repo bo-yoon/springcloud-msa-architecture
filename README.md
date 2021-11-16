@@ -25,6 +25,22 @@ https://github.com/bo-yoon/springcloud-msa-architecture/blob/master/docs/msa-pro
 <br>
 
 
+
+## 📖 docs03-event-storming
+
+: 이벤트 스토밍
+
+![event-storming.drawio](README.assets/event-storming.drawio.png)
+
+
+
+<br><br>
+
+
+
+
+
+
 ## 🤔 feat01-config
 : 스프링 클라우드 컨피그 적용
 
